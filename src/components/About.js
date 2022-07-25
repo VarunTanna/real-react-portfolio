@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <div>
+        <div className="container">
             {/* <p>Full Stack Web Developer from Charlotte, NC.</p> */}
             <hr />
             <h1>About Me:</h1>
