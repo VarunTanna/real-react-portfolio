@@ -1,4 +1,4 @@
-import { tab } from "@testing-library/user-event/dist/tab";
+
 import React from "react";
 
 function Navigation(props) {
@@ -6,8 +6,8 @@ function Navigation(props) {
     return (
         <div className="tabs is-centered">
             <ul className="nav nav-tabs">
-                {tabs.map((tabs) => {
-                    <li>
+                {tabs.map((tab) => (
+                    <li
                         className={
                             props.currentPage === tab ? "nav-item is-active" : "nav-item"
                         }
@@ -20,12 +20,12 @@ function Navigation(props) {
                         props.currentPage === tab ? 'nav-link active' : 'nav-link'
                     }
                     >
-                        
+
                     {tab}
                     
                     </a>
                     </li>
-                })}
+                ))}
             </ul>
         </div>
     );

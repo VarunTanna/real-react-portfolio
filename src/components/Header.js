@@ -28,7 +28,7 @@ function Header() {
         <div>
             <nav className='navbar'>
                 <div>
-                <span className='bg-dark text-light'> Varun Tanna</span>
+                <span className='bg-dark text-light text-center'> Varun Tanna</span>
                 </div>
             </nav>
             <Navigation 
