@@ -1,4 +1,6 @@
 import React, { useState} from "react";
+import { validateEmail } from '../utlis/helper';
+
 
 function Contact() {
     const [formState, setFormState] = useState({name: '', email: '', message: ''});
@@ -34,7 +36,7 @@ function Contact() {
                 <input class="form-control" type="email" name="email" defaultValue={email} onBlur={handleChange}/>
                 </div>
                 <div class="mt-5">
-                <label>message:</label>
+                <label>Message:</label>
                 <input class="form-control" type="message" name="message" defaultValue={message} onBlur={handleChange}/>
                 </div>
                 {errorMessage && (
