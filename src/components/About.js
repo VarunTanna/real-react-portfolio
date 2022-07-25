@@ -1,6 +1,6 @@
 import React from "react";
 
-function AboutMe () {
+function About() {
     return (
         <div>
             <p>Full Stack Web Developer from Charlotte, NC.</p>
@@ -12,4 +12,4 @@ function AboutMe () {
     )
 }
 
-export default AboutMe;
+export default About;
