@@ -2,22 +2,13 @@ import React from "react";
 
 function Resume() {
     return (
-        <div className="columns">
-            <div className="column">
-                <p>Resume</p>
-                <hr />
-                <p>Skills:</p>
-                <ul>
-                    <li>HTML/CSS</li>
-                    <li>React</li>
-                    <li>Node</li>
-                    <li>Bootstrap</li>
-                    <li>Express</li>
-                    <li>JavaScript</li>
-
-                </ul>
-            </div>
-        </div>
+     <div className="resume">
+        <h2>
+            <a href="https://www.awesomescreenshot.com/image/30613742?key=5708294757ef77b51b22db5bcbd54b72"
+            target="blank">Click this text for Resume</a>
+        </h2>
+        <img src="src/assets/Resume.png" alt="resume"></img>
+     </div>
     );
 }
 
